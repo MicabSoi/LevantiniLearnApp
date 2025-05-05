@@ -159,6 +159,7 @@ function App() {
           {/* Main Content */}
           <main className="container mx-auto p-4 max-w-4xl mt-14 flex-grow">
             <Routes>
+<<<<<<< HEAD
               <Route 
                 path="/flashcard/:id" 
                 element={
@@ -168,6 +169,9 @@ function App() {
                   />
                 } 
               />
+=======
+              <Route path="/flashcard/:id" element={<FlashcardDetail />} />
+>>>>>>> 4ddb881d48eae57f08464140abafcc7192e0bc00
               <Route path="/schedule" element={<ReviewCalendar />} />
               <Route path="/study" element={<StudySelection />} />
               <Route path="/study/run" element={<StudySession />} />
